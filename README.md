@@ -1,12 +1,10 @@
 
-# TimeSeer: Foundation Time Series Forecasting
+<div align="center">
+  <h2><b>TimeSeer: Foundation Time Series Forecasting</b></h2>
+</div>
 
 <div align="center">
   
-![TimeSeer Logo](public/placeholder.svg)
-
-**Advanced time series forecasting foundation for accurate predictions**
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Latest-3178C6?logo=typescript)](https://www.typescriptlang.org/)
@@ -14,43 +12,84 @@
 
 </div>
 
-## 📊 Overview
+<div align="center">
+  
+**[<a href="https://github.com/your-username/timeseer">GitHub</a>]**
+**[<a href="https://your-docs-url.com">Documentation</a>]**
 
-TimeSeer is a comprehensive foundation for time series forecasting that combines state-of-the-art statistical models, machine learning techniques, and deep learning approaches. It provides researchers and practitioners with the tools to analyze historical data and generate accurate predictions for various time-dependent applications.
+</div>
 
-## ✨ Features
+<p align="center">
+  <img src="public/placeholder.svg" width="150">
+</p>
 
-- **Multiple Forecasting Models**: Implementation of ARIMA, Exponential Smoothing, Prophet, LSTM, and Transformer-based models
-- **Preprocessing Pipeline**: Built-in tools for data cleaning, normalization, and feature engineering
-- **Anomaly Detection**: Identify outliers and unusual patterns in time series data
-- **Performance Metrics**: Comprehensive evaluation with RMSE, MAE, MAPE, and other metrics
-- **Interactive Visualizations**: Explore data and forecasts through intuitive interfaces
-- **Hyperparameter Optimization**: Automated parameter tuning for optimal model performance
-- **Ensemble Methods**: Combine multiple models for improved forecast accuracy
-- **Explainability Tools**: Understand feature importance and model decisions
+> 1️⃣ TimeSeer provides a **comprehensive foundation** for time series forecasting that combines state-of-the-art statistical models, machine learning techniques, and deep learning approaches.
+
+> 2️⃣ Supports **multiple forecasting models** including ARIMA, Exponential Smoothing, Prophet, LSTM, and Transformer-based architectures.
+
+## TODO List
+- [ ] Add support for multivariate time series
+- [ ] Implement Prophet and Transformer-based models
+- [ ] Add interactive visualization dashboards
+- [ ] Enable GPU acceleration for neural models
+
+## Updates/News:
+
+🚩 **News** (April 2025): TimeSeer v1.0.0 has been released!
+
+🚩 **News** (March 2025): Added support for LSTM models and enhanced preprocessing pipeline
+
+🚩 **News** (February 2025): Beta version now available with ARIMA and Exponential Smoothing models
+
+## Introduction
+
+TimeSeer is a comprehensive foundation for time series forecasting that provides researchers and practitioners with the tools to analyze historical data and generate accurate predictions. It supports multiple modeling approaches and offers an intuitive interface for data exploration, model training, and forecast visualization.
+
+<p align="center">
+  <img src="public/placeholder.svg" alt="TimeSeer Architecture" align="center" width="700px" />
+</p>
+
+## 📚 Supported Models
+
+TimeSeer implements several key time series forecasting methodologies:
+
+### Statistical Models
+- ARIMA (AutoRegressive Integrated Moving Average)
+- Exponential Smoothing
+- SARIMA (Seasonal ARIMA)
+- VAR (Vector Autoregression)
+
+### Machine Learning Models
+- Random Forests
+- Gradient Boosting
+- Support Vector Regression
+- K-Nearest Neighbors
+
+### Deep Learning Models
+- LSTM (Long Short-Term Memory)
+- GRU (Gated Recurrent Units)
+- CNN-LSTM Hybrids
+- Transformer-based architectures
 
 ## 🚀 Getting Started
 
-### Prerequisites
-
-- Node.js (>= 16.x)
-- npm or yarn
-
 ### Installation
 
+1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/timeseer.git
 cd timeseer
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
 ```
 
-## 📖 Usage
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
 
 ### Basic Forecasting
 
@@ -76,47 +115,7 @@ const forecast = await forecaster.predict(30);
 forecaster.plot();
 ```
 
-### Advanced Usage
-
-See our [documentation](https://your-docs-url.com) for advanced usage examples, including:
-
-- Custom model implementation
-- Handling seasonal data
-- Working with multivariate time series
-- Deploying models to production
-- Ensemble techniques
-
-## 📚 Documentation
-
-Comprehensive documentation is available at [https://your-docs-url.com](https://your-docs-url.com).
-
-## 📊 Example Forecasts
-
-![Forecast Example](public/placeholder.svg)
-
-## 🧪 Methodology
-
-TimeSeer implements several foundational time series forecasting methodologies:
-
-### Statistical Models
-- ARIMA (AutoRegressive Integrated Moving Average)
-- Exponential Smoothing
-- SARIMA (Seasonal ARIMA)
-- VAR (Vector Autoregression)
-
-### Machine Learning Models
-- Random Forests
-- Gradient Boosting
-- Support Vector Regression
-- K-Nearest Neighbors
-
-### Deep Learning Models
-- LSTM (Long Short-Term Memory)
-- GRU (Gated Recurrent Units)
-- CNN-LSTM Hybrids
-- Transformer-based architectures
-
-## 💻 API Reference
+## 📝 API Reference
 
 ### TimeSeriesForecaster
 
@@ -134,6 +133,17 @@ class TimeSeriesForecaster {
 
 For more details on the API, refer to the [API documentation](https://your-docs-url.com/api).
 
+## 📊 Features
+
+- **Multiple Forecasting Models**: Implementation of ARIMA, Exponential Smoothing, Prophet, LSTM, and Transformer-based models
+- **Preprocessing Pipeline**: Built-in tools for data cleaning, normalization, and feature engineering
+- **Anomaly Detection**: Identify outliers and unusual patterns in time series data
+- **Performance Metrics**: Comprehensive evaluation with RMSE, MAE, MAPE, and other metrics
+- **Interactive Visualizations**: Explore data and forecasts through intuitive interfaces
+- **Hyperparameter Optimization**: Automated parameter tuning for optimal model performance
+- **Ensemble Methods**: Combine multiple models for improved forecast accuracy
+- **Explainability Tools**: Understand feature importance and model decisions
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -143,12 +153,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-Please make sure to update tests as appropriate.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 📚 Citing TimeSeer
 
@@ -163,12 +167,17 @@ If you use TimeSeer in your research, please cite:
 }
 ```
 
-## 🙏 Acknowledgments
+## Related Resources
+* Transformers in Time Series: A Survey, IJCAI 2023. [paper](https://arxiv.org/abs/2202.07125)
+* Self-Supervised Learning for Time Series Analysis: Taxonomy, Progress, and Prospects, TPAMI 2024. [paper](https://arxiv.org/abs/2306.10125)
+* Foundation Models for Time Series Analysis: A Tutorial and Survey, KDD 2024. [paper](https://arxiv.org/abs/2403.14735)
+
+## Acknowledgments
 
 - Inspired by Facebook's Prophet and other open-source forecasting libraries
 - Thanks to all contributors who have helped shape this project
 - Special thanks to the research community for advancing the field of time series forecasting
 
-## 📧 Contact
+## License
 
-For questions or feedback, please [open an issue](https://github.com/your-username/timeseer/issues) or contact [your-email@example.com](mailto:your-email@example.com).
+This project is licensed under the MIT License - see the LICENSE file for details.
