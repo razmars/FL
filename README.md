@@ -49,27 +49,6 @@ TimeSeer is a comprehensive foundation for time series forecasting that provides
   <img src="public/placeholder.svg" alt="TimeSeer Architecture" align="center" width="700px" />
 </p>
 
-## 📚 Supported Models
-
-TimeSeer implements several key time series forecasting methodologies:
-
-### Statistical Models
-- ARIMA (AutoRegressive Integrated Moving Average)
-- Exponential Smoothing
-- SARIMA (Seasonal ARIMA)
-- VAR (Vector Autoregression)
-
-### Machine Learning Models
-- Random Forests
-- Gradient Boosting
-- Support Vector Regression
-- K-Nearest Neighbors
-
-### Deep Learning Models
-- LSTM (Long Short-Term Memory)
-- GRU (Gated Recurrent Units)
-- CNN-LSTM Hybrids
-- Transformer-based architectures
 
 ## 🚀 Getting Started
 
@@ -91,8 +70,9 @@ npm install
 npm run dev
 ```
 
-### Basic Forecasting
 
+
+## 📈 Making Forecasts
 ```typescript
 import { TimeSeriesForecaster } from '@/lib/forecaster';
 
@@ -115,46 +95,12 @@ const forecast = await forecaster.predict(30);
 forecaster.plot();
 ```
 
-## 📝 API Reference
+## Evaluation
 
-### TimeSeriesForecaster
+## 🔥 Fine-tuning 
+just cheking
 
-The main class for time series forecasting.
-
-```typescript
-class TimeSeriesForecaster {
-  constructor(options: ForecastOptions);
-  async train(data: TimeSeries): Promise<void>;
-  async predict(horizon: number): Promise<TimeSeries>;
-  evaluate(testData: TimeSeries): Metrics;
-  plot(options?: PlotOptions): void;
-}
-```
-
-For more details on the API, refer to the [API documentation](https://your-docs-url.com/api).
-
-## 📊 Features
-
-- **Multiple Forecasting Models**: Implementation of ARIMA, Exponential Smoothing, Prophet, LSTM, and Transformer-based models
-- **Preprocessing Pipeline**: Built-in tools for data cleaning, normalization, and feature engineering
-- **Anomaly Detection**: Identify outliers and unusual patterns in time series data
-- **Performance Metrics**: Comprehensive evaluation with RMSE, MAE, MAPE, and other metrics
-- **Interactive Visualizations**: Explore data and forecasts through intuitive interfaces
-- **Hyperparameter Optimization**: Automated parameter tuning for optimal model performance
-- **Ensemble Methods**: Combine multiple models for improved forecast accuracy
-- **Explainability Tools**: Understand feature importance and model decisions
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📚 Citing TimeSeer
+## 📚 Citation
 
 If you use TimeSeer in your research, please cite:
 
